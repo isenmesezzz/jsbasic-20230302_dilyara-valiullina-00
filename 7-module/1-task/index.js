@@ -27,6 +27,7 @@ export default class RibbonMenu {
     ribbonInner.scrollBy(350, 0);
     this.#checkBorders();
   }
+
   #checkBorders() {
     const ribbonInner = this.elem.querySelector('.ribbon__inner');
     const arrowRight = this.elem.querySelector('.ribbon__arrow_right');
